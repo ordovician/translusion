@@ -1,0 +1,28 @@
+<!--
+  This file is used to render a list of all posts on our blog.
+-->
+
+{{ template "chrome/header.html" . }}
+
+<body >
+  {{ template "chrome/sidebar.html" . }}
+
+    <div class="container content">
+        <section id="main">
+          <h1>Norwegian Maker</h1>
+          <p>If you don't live in the US then you typically work in metric units. Unfortunately the guides you'll find online are usually made for and by Americans.</p>
+
+      <p>This site is intended for people who get confused by inches and pounds and who can't get supplies from typical American stores such as <a href="http://www.mcmaster.com">McMaster-Carr</a> or <a href="http://www.homedepot.com">Home Depot</a></p>
+
+      <p>These sections cover what sorts of parts, tools and materials exist for makers and what the parts are called in Norwegian if you need to get them from a local store.</p>
+            {{ range .Data.Pages }}
+              {{ .Render "summary"}}
+            {{ end }}
+        </section>
+    </div>
+
+  <!-- Include footer (ends <body> and <html>) -->
+  {{ template "chrome/footer.html" }}
+
+
+

@@ -1,0 +1,23 @@
+{{ template "chrome/header.html" . }}
+
+<body >
+  {{ template "chrome/sidebar.html" . }}
+  
+  <!-- Show summary of all articles in a category -->
+    <div class="container content">
+    <p>Here are all my articles, in descending order by creation date. If you would like to view them by topic, see the <a href="/categories">Categories</a> page.</p>
+      <h1 class="post-title">All Blog Posts (By Date)</h1>
+        <section id="main">
+          <ul id="list">
+            {{ range .Data.Pages }}
+            {{ .Render "li"}}
+            {{ end }}
+          </ul>
+        </section>
+    </div>
+
+  <!-- Include footer (ends <body> and <html>) -->
+  {{ template "chrome/footer.html" }}
+
+
+
