@@ -5,13 +5,22 @@ description: "Where to get motors, gears, axels, screws, pulleys etc, and how to
 illustration: "mechanical.jpg"
 ---
 
-## Where to buy mechanical parts
+I am not aiming to give an exhaustive guide here. This is mainly to get you started. I will link to more in depth articles. The problem I am trying to address here is that when you start out you end up on a wild goose chase with google to find out stuff. I will focus on mentioning mistakes I've made which might aid in getting the right parts or using them correctly.
+
+# Where to buy mechanical parts
+
+A problem when buying mechanical parts is that the stores are usually made for professionals so it can be difficult to determine the right thing to get.
+
+## RS
+
+[rs][rs] has one of the largest selections of products. That is both a benefit and a problem. You can get electric motors, wires, screws etc lots of places. But if you want to get hold of things such as:
+
+* Pulleys
+* Actuators
+* Gears
+* Axel collars
+
+And a whole host of other things then [rs][rs] is the best choice.
 
 
-## How to use screws motors etc
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-
+[rs]: http://no.rs-online.com
