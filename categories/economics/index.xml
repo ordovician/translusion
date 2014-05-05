@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Economics on Translusion </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://translusion.github.com/categories/economics/index.xml</link>
+    
+    
+    
+    <updated>Fri, 28 Mar 2014 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Economics Simulator</title>
+      <link>http://translusion.github.com/projects/econsim</link>
+      <pubDate>Fri, 28 Mar 2014 00:00:00 UTC</pubDate>
+      
+      <guid>http://translusion.github.com/projects/econsim</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Economic Simulation&lt;/h2&gt;
+
+&lt;p&gt;The idea is to simulate economy in a similar way to how games do it. My first interest is to study comparative advantage and economics of scale. My hypothesis is that minor differences in efficiency of producing a good will over time get amplified. The economic model is based on the assumption that large factories has a larger production capacity, require less work per item to produce but has a higher fixed cost than smaller factories.
+Whatever economy starts producing more of a particular good will eventually invest in larger factories, leading to a stronger comparative advantage in that area and pushing other countries or competitors towards investing in production of other goods. Thus a diversitication happens.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
