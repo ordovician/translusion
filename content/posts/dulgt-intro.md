@@ -89,6 +89,7 @@ But I don't think HMAC is specifically design for generating passwords. So using
 
 [PassHash](http://passhash.connorhd.co.uk) Very simple. Uses SHA246-HMAC, but likely no iterations.<br>
 
+[Secure Passwords](http://ctrlq.org/passwords/) Clean design using bcrypt. A bit too simple perhaps, but with good help instructions.<br>
 # Resources
 
 [crackstation](https://crackstation.net/hashing-security.htm) Great info on hashing. E.g. on why you shouldn't invent your own wacky hashing solutions by combining existig ones. Correct use of salt etc.<br>
